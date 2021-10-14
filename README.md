@@ -20,6 +20,10 @@ Arria10のDPR領域は2つまでらしい. これは, <br>
   - Found 2 PR blocks in design -- only one PR block is allowed
 
 ## [実験2](./ex2) : PR-IPを複数作成してみる
+- コンパイルエラー
+  - Found 2 CRC blocks in design -- only one CRC block is allowed
+  - Found 2 PR blocks in design -- only one PR block is allowed
+
 
 ## [実験3](./ex3) : 
 
