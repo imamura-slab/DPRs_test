@@ -24,7 +24,13 @@ Arria10のDPR領域は2つまでらしい. これは, <br>
   - Found 2 CRC blocks in design -- only one CRC block is allowed
   - Found 2 PR blocks in design -- only one PR block is allowed
 
+## [実験3](./ex3) : PR-IP 1つ. 複数ペルソナを作ることで複数の再構成対象をそれぞれ再構成したりしなかったりしてみる
+- 1つのペルソナの中に複数の再構成対象インスタンスがあっても, それらをまとめて再構成することはできず, 1つずつしか再構成できない模様
 
-## [実験3](./ex3) : 
+
+
+# ユーザガイド
+- [partial reconfiguration](https://www.intel.co.jp/content/www/jp/ja/programmable/documentation/tnc1513987819990.html)
+
 
 
