@@ -15,17 +15,25 @@ Arria10のDPR領域は2つまでらしい. これは, <br>
 
 # 実験
 
-## [実験1](./ex1) : PR-IPを複数インスタンス化してみる
+### [実験1](./ex1) : PR-IPを複数インスタンス化してみる
 - コンパイルエラー
   - Found 2 PR blocks in design -- only one PR block is allowed
 
-## [実験2](./ex2) : PR-IPを複数作成してみる
+### [実験2](./ex2) : PR-IPを複数作成してみる
 - コンパイルエラー
   - Found 2 CRC blocks in design -- only one CRC block is allowed
   - Found 2 PR blocks in design -- only one PR block is allowed
 
-## [実験3](./ex3) : PR-IP 1つ. 複数ペルソナを作ることで複数の再構成対象をそれぞれ再構成したりしなかったりしてみる
-- 1つのペルソナの中に複数の再構成対象インスタンスがあっても, それらをまとめて再構成することはできず, 1つずつしか再構成できない模様
+### [実験3](./ex3) : PR-IP 1つ. 複数ペルソナを作ることで複数の再構成対象をそれぞれ再構成したりしなかったりしてみる
+- 1つのペルソナの中に複数の再構成対象インスタンスがあっても, それらをまとめて再構成することはできず, 1つずつしか再構成できない??
+  - インスタンスA : count up, count down
+  - インスタンスB : count up, count down
+    - OK : (A, B) = (up, up) -> (up, down)
+    - NG : (A, B) = (up, up) -> (down, down)
+    - 
+
+### [階層的部分再構成](./hpr_tutorial/flat2) : Hierarchical Partial Reconfiguration (HPR)
+- tclスクリプトでエラー発生中
 
 
 
